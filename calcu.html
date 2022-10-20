@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        text-align: center;
+      }
+      input {
+        width: auto;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>Calculadora de Lean</h1>
+    <br />
+
+    <form action="" method="dialog">
+    <input type="text" id="edit1" placeholder="Ingrese el PRIMER valor" />
+    <input type="text" id="edit_operador" placeholder="+-*/" />
+    <input type="text" id="edit2" placeholder="Ingrese el SEGUNDO valor" />
+    <br />
+    <input type="submit" value="Aceptar" id="btn_calcular" />
+    </form>
+
+    <h3 id="h3_resultado">-</h3>
+
+    <script src=".\calcu.js" defer></script>
+  </body>
+</html>
